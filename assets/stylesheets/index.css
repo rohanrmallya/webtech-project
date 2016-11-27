@@ -1,0 +1,110 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: 'akrobatthin';
+    src: url('/assets/fonts/akrobat-thin-webfont.woff2') format('woff2'), url('/assets/fonts/akrobat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sl';
+    src: url('/assets/fonts/stellar-light-webfont.woff2') format('woff2'), url('/assets/fonts/stellar-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#h1{
+  font-family:sl;
+  /*font-size:5em;*/
+  position: absolute;
+  top:40%;
+  left:40%;
+}
+#red{
+ color:#f22516;
+ font-size:6em;
+}
+
+#green{
+  color:#429745;
+  font-size:6em;
+}
+
+#blue{
+  color:#36469c;
+  font-size:6em;
+}
+
+#cp{
+  display: block;
+  font-size:1.8em;
+  margin-top:-14%;
+  color:#673ab7;
+}
+
+#go{
+  position: absolute;
+  top:77%;
+  left:40%;
+  left:40%;
+  width:17%;
+  height:7%;
+  border: 2px solid #FFC518;
+  color: #FFC518;
+  background: none;
+}
+
+#go:hover{
+  background:#FFC518;
+  color:#000;
+}
+
+/*span:hover{
+  background-color: #fff;overflow: hidden;
+}*/

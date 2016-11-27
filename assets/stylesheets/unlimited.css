@@ -1,0 +1,152 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+@font-face {
+    font-family: 'stellarlight';
+    src: url('/assets/fonts/stellar-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/stellar-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navBar{
+  height: 64px;
+  width:100%;
+  background: black;
+}
+
+.item{
+  color:white;
+  text-align: center;
+  float:left;
+  /*left:2%;*/
+  vertical-align: center;
+  text-align: center;
+  line-height: 64px;
+  font-size:132%;
+  height: inherit;
+  padding: 0 8px;
+	font-family:stellarlight;
+}
+
+.item:hover{
+  color:black;
+  background: white;
+}
+
+/*body{
+	background:red;
+}*/
+/* For the form open and close*/
+
+
+.open{
+	/*top:64px;*/
+	height: 60px;
+	width:100%;
+	display: block;}
+
+.close{
+	display: none;
+}
+
+
+
+/* How the form looks - Submit button + input field*/
+
+
+#form{
+	height: 100%;
+	width: 100%;
+}
+#inp{
+	height:98%;
+	width: 50%;
+	border: none;
+}
+
+#inp:focus{
+	background: rgba(0, 0, 0, 0.1);
+	color:white;
+	border: none;
+}
+
+#subm{
+	height: 100%;
+	background:rgba(0, 0, 0, 0.8);
+	color: white;
+	border: none;
+	width:50%;
+	float: right;
+}
+
+#subm:hover{
+	background: black;
+	color:white;
+	transition: all 0.5s linear;
+}
+
+/* How the square looks like*/
+
+
+.square {
+    background: steelblue;
+    padding-bottom: 13.33%;
+    width: 13.33%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+}
+
+#wrapper{
+	position: fixed;
+	top:64px;
+	height: 25;
+	width:100%;
+	background: rgba(0, 0, 0, 0.5);
+
+}
+
+/*The stripe bearing the color*/
+.stripe{
+    width:100%;
+    height:50%;
+		background: rgba(0, 0, 0, 0.5);
+		font-family : stellarlight;
+    padding-top:10px;
+    font-size: 3em;
+}
+
+#input{
+	width: 100%;
+	margin:0 auto;
+	height:10%;
+	position: relative;
+}
+
+/*The paragraph that reads "The correct color is <span> this </span>"*/
+#sElem{
+   text-align:center;
+   margin:0 auto;
+}
+
+/* Has the color*/
+
+#colorid{
+    text-align:center;
+    margin:0 auto;
+}
+
+/* Area of the game*/
+
+.game{
+	margin-top:10%;
+	/*background:red;*/
+	max-width: 1500px;
+	height: 600px;
+
+}

@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'stellarlight';
+    src: url('/assets/fonts/stellar-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/stellar-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fjalla';
+    src: url('/assets/fonts/fjallaone-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/fjallaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navBar{
+  height: 64px;
+  width:100%;
+  background: black;
+}
+
+.item{
+  color:white;
+  text-align: center;
+  float:left;
+  /*left:2%;*/
+  vertical-align: center;
+  text-align: center;
+  line-height: 64px;
+  font-size:132%;
+  height: inherit;
+  padding: 0 8px;
+  font-family: stellarlight;
+}
+
+.item:hover{
+  color:black;
+  background: white;
+}
+#container {
+    /*padding-top: 300px;*/
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top:7%;
+    background: red;
+}
+
+#heading {
+    /*font-family: 'Baloo Bhaina', cursive;*/
+    font-family: 'fjalla';
+    margin-top: 7%;
+    /*margin: 0 auto;*/
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+}
+
+#enter {
+    /*margin-top: -60px;*/
+    font-size: 2em;
+    /*margin-top:7%;*/
+    font-family: 'fjalla';
+    align-items: center;
+    justify-content: center;
+}
+
+.levelButton {
+    margin-top: 2em;
+    width: 9em;
+    font-family: 'fjalla';
+    background: rgba(0, 0, 0, 0.1);
+    transition: all .5s ease;
+    padding: 1em;
+    display: inline;
+    border: none;
+}
+
+.levelButton:hover {
+    color: white;
+    background: black;
+}
+
+.inputField {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 1em;
+}
+
+.inputField:focus {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#sendButton {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: 5px;
+    padding: 1em;
+    transition: all .5s ease;
+}
+
+#sendButton:hover {
+    color: white;
+    background: black;
+}

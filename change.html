@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>RGB Game Project</title>
+    <link href="assets/stylesheets/change.css" rel="stylesheet" type="text/css">
+    <link href="assets/stylesheets/font-awesome.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/change.js"></script>
+</head>
+
+<body>
+        <div class="navBar">
+          <a href="index.html">
+            <div class="item"> <i class="fa fa-home"></i> </div></a>
+            <a href="unlimited.html">
+                <div class="item"> Custom </div>
+            </a>
+            <a href="color.html">
+                <div class="item"> Series </div>
+            </a>
+            <a href="colorGuessv2.php">
+                <div class="item"> Guess </div>
+            </a>
+
+        </div>
+        <div id="container">
+            <h1 id="heading"> RGB Game Project </h1>
+            <h3 id="enter"> Input the RGB Values in (r,g,b) format </h3>
+            <div class="form">
+                <form>
+                    <input type="text" placeholder="R" id="r" class="inputField">
+                    <input type="text" placeholder="G" id="g" class="inputField">
+                    <input type="text" placeholder="B" id="b" class="inputField">
+                    <input type="button" value="Send it" id="sendButton" onclick="changeColor()">
+                </form>
+            </div>
+            <a href="#">
+                <button class="levelButton">CUSTOM LEVEL</button>
+            </a>
+            <a href="color.html">
+                <button class="levelButton">SERIES GAME</button>
+            </a>
+
+        </div>
+</body>
+
+</html>

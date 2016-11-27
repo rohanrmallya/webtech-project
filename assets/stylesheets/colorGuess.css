@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.navBar{
+  height: 64px;
+  width:100%;
+  background: black;
+}
+
+.item{
+  color:white;
+  text-align: center;
+  float:left;
+  vertical-align: center;
+  text-align: center;
+  line-height: 64px;
+  font-size:132%;
+  height: inherit;
+  padding: 0 8px;
+  font-family: stellarlight;
+}
+
+.item:hover{
+  color:black;
+  background: white;
+}
+
+
+
+@font-face {
+    font-family: 'blackBox';
+    src: url('/assets/fonts/the_black_box-ffp-webfont.woff2') format('woff2'), url('/assets/fonts/the_black_box-ffp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'coffeeAtMidnight';
+    src: url('/assets/fonts/coffee_at_midnight_demo-webfont.woff2') format('woff2'), url('/assets/fonts/coffee_at_midnight_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akrobatbold';
+    src: url('/assets/fonts/akrobat-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/akrobat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'akrobatlight';
+    src: url('/assets/fonts/akrobat-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/akrobat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'akrobatregular';
+    src: url('/assets/fonts/akrobat-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/akrobat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'akrobatthin';
+    src: url('/assets/fonts/akrobat-thin-webfont.woff2') format('woff2'),
+         url('/assets/fonts/akrobat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'stellarbold';
+    src: url('/assets/fonts/stellar-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/stellar-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'stellarlight';
+    src: url('/assets/fonts/stellar-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/stellar-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.stripe {
+    height: 40%;
+    width: 100%;
+    background: steelblue;
+    font-size: 200%;
+    font-family: coffeeAtMidnight;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 264%;
+    /*transition: all 0.5s ease;*/
+}
+
+.stripe #col {
+    font-size: 100%;
+    font-family: blackBox;
+    display: block
+}
+
+
+.stripe #hint {
+    position: absolute;
+    top: 6.6%;
+    right: 0;
+    border: none;
+    border-bottom: 0.01px solid black;
+    height: 20%;
+    font-size: 125%;
+    font-family: blackBox;
+    background: rgba(0, 0, 0, 0.2);
+    width: 14%;
+    transition: all 0.5s ease;
+}
+
+#hint:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.stripe #reset {
+    position: absolute;
+    top: 26.6%;
+    right: 0;
+    border: none;
+    height: 20%;
+    font-size: 125%;
+    font-family: blackBox;
+    background: rgba(0, 0, 0, 0.2);
+    width: 14%;
+    transition: all 0.5s ease;
+}
+
+#reset:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.inp {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    font-size: 2em;
+    margin-right: 1%;
+    float: left;
+    font-family: coffeeAtMidnight;
+}
+
+.inp:focus{
+  background: rgba(0,0,0,0.1);
+
+}
+.game {
+    height: 50%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+
+.answer {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    top:150px;
+}
+
+#subm{
+  /*display: inline-block;*/
+  height:50px;
+  width: 120px;
+  border: none;
+  background:rgba(0,0,0,0.2);
+  font-family: coffeeAtMidnight;
+  font-size:1.5em;
+}
+
+#subm:hover{
+  background: rgba(0,0,0,0.5);
+}
